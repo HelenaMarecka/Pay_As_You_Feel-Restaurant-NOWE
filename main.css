@@ -1,0 +1,137 @@
+/**
+ * Project: Pay As You Feel Restaurant
+ **/
+
+
+/*Small adjustments to bootstrap*/
+
+body, header, footer{
+	background-color: #e2d669;
+}
+footer{
+	margin: 0 !important;
+}
+.banner{
+	width:100;
+	margin-bottom: 50px;
+}
+@media (max-width: 600px) {
+	.banner{
+		display:none;
+	}
+}
+@media (max-width: 800px) {
+	.hideMobile{
+		display:none !important;
+	}
+	.btn{
+		margin-bottom: 50px;
+	}
+}
+.bannerImg{
+	width:100%;
+}
+.logo{
+	width:100px;
+}
+.nav-item{
+	text-align: center;
+}
+.navbar-nav{
+	margin-right: 50px;
+}
+main{
+	width:100%;
+	background-color: #0f6f39;
+	overflow: hidden;
+
+}
+.box{
+	width:80%;
+	margin: 0 auto 0 auto;
+	
+}
+.textImage{
+	width:100%;
+	max-width:400px;
+}
+.textImageSmall{
+	width:100%;
+	max-width:300px;
+}
+.textImageBig{
+	width:100%;
+	max-width:500px;
+	margin-bottom: 50px;
+}
+
+/*
+ * Small animation of image hover.
+ * Based on: https://www.w3schools.com/css/css3_transitions.asp
+ */
+.textImageBig {
+    -webkit-transition: .25s;
+       -moz-transition: .25s;
+        -ms-transition: .25s;
+         -o-transition: .25s;
+            transition: .25s;
+}
+.textImageBig:hover {
+    scale: 1.1;
+}
+
+
+.col > p{
+	margin-top:25px;
+	color: #e2d669;
+}
+h2, h3, p{
+	color: #e2d669;
+}
+
+@media (max-width: 800px) {
+	.col{
+		flex:0 1 auto;
+	}
+}
+.pageTitle{
+	width:100%;
+	text-align: center;
+}
+
+/*Make elements dissapear on small devices*/
+@media (max-width: 600px) {
+ .headerTitle{
+ 	display:none;
+ }
+ .footerNav{
+ 	display: none;
+}
+}
+.container{
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+
+/*Social Media Mobile Adjustment*/
+.bi{
+	width:16px;
+	height:16px;
+}
+
+@media (max-width: 600px) {
+	.bi{
+		width:30px;
+		height:30px;
+	}
+}
+
+.headerTitle {
+	color:#0f6f39;
+}
+
+.h3{
+	color:#e2d669;
+}
+
+
