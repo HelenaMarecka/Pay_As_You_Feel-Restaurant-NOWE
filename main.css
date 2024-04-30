@@ -87,6 +87,7 @@ main{
 }
 h2, h3, p{
 	color: #e2d669;
+	font-family: "Times New Roman", Times, serif;
 }
 
 @media (max-width: 800px) {
@@ -97,6 +98,7 @@ h2, h3, p{
 .pageTitle{
 	width:100%;
 	text-align: center;
+
 }
 
 /*Make elements dissapear on small devices*/
@@ -132,6 +134,7 @@ h2, h3, p{
 
 .h3{
 	color:#e2d669;
+	font-family: "Times New Roman", Times, serif;
 }
 
 
